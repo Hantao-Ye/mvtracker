@@ -10,7 +10,7 @@ import os
 
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
-from moviepy.editor import (
+from moviepy import (
     VideoFileClip,
     ImageClip,
     clips_array,
