@@ -339,7 +339,7 @@ def augment_train_iters(train_iters: int, current_step: int, warmup_steps: int =
         return train_iters
 
 
-@hydra.main(version_base="1.3", config_path="../../configs", config_name="train.yaml")
+@hydra.main(version_base="1.3", config_path="../configs", config_name="train.yaml")
 @maybe_close_wandb
 def main(cfg: DictConfig):
     """Main entry point for training.
